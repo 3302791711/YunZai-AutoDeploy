@@ -1,0 +1,84 @@
+@echo off
+chcp 65001 >nul
+
+title "定时清理脚本"
+goto main
+
+                                  注意事项：
+——————————————————————
+       请谨慎运行该脚本！把他放在所需的目录！
+       若删除重要文件，概不负责！
+       千万要仔细看，仔细填，不要乱改！！！！
+       需要改的内容只有：
+  1.填写私聊发送者QQ
+  2.填写群发群聊QQ（可写多个，以空格分割）
+  3.填写发送的消息（可写多个，以空格分割）
+  4.HTTP服务器的地址（HTTP客户端）
+——————————————————————
+                 只改带星星的！！！！！！
+
+
+后缀改成.bat就能运行了。
+脚本将删除脚本所在目录的所有文件夹和内容
+
+
+
+:main
+::执行文件夹清理
+for /d %%d in (*) do (
+    if /i not "%%d"=="Chatluna" (
+        rmdir /s /q "%%d"
+    )
+)
+
+set "ScriptPath=%~dp0"
+::执行文件清理
+for %%F in ("%ScriptPath%*") do (
+    if not "%%F"=="%ScriptPath%定时清理脚本.bat" (
+        del /f /q "%%F"
+    )
+)
+
+
+REM 你如果不使用QQ机器人，只想使用脚本清楚文件，加上goto end和:end
+RND 反之如何你想使用QQ机器人发送提示的话，删除goto end和:end
+goto end
+
+
+:: HTTP服务器的地址（HTTP客户端）
+set Bot_Url=http://127.0.0.1:3110
+REM ★ 本机部署BOT：http://127.0.0.1:<端口>          公网部署：http://<公网IP>:<端口>                                                                
+
+
+@echo off
+:: 填写私聊发送者QQ
+set user=965629725
+REM ★ 只能写一个，如：965629725
+
+set a=定时清理脚本已执行完毕！
+curl -X POST -H "Content-Type: application/json" -d "{\"user_id\": \"%user%\", \"message\": \"%a%\"}" %Bot_Url%/send_private_msg
+
+set c=已清除tmp内所有的文件夹和文件
+curl -X POST -H "Content-Type: application/json" -d "{\"user_id\": \"%user%\", \"message\": \"%c%\"}" %Bot_Url%/send_private_msg
+
+
+
+
+:: 填写群发群聊QQ（可写多个，以空格分割）
+set group=545229774 855782359 734509612 906103649 415681705
+REM ★ 可填多个
+::填写发送的消息（可写多个，以空格分割）
+set message=定时清理脚本已执行完毕！ 已清除tmp内所有的文件夹和文件    
+REM ★ 可填多个
+
+
+:: 发送群聊消息
+for %%i in (%group%) do (
+    for %%l in (%message%) do (
+        curl -X POST -H "Content-Type: application/json" -d "{\"group_id\": \"%%i\", \"message\": \"%%l\"}" %Bot_Url%/send_group_msg
+    )
+)
+
+
+:end
+exit 0
