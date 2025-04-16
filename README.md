@@ -8,7 +8,7 @@
 
 **中文** | [English](./Language/README.en.md) <!-- 如果你打算提供英文版，可以保留这个链接 -->
 
-本项目旨在简化 [YunZai-Bot](https://github.com/Le-niao/Yunzai-Bot) 和 [Koishi](https://koishi.chat/) 这两个流行的机器人框架在 Windows 11 环境下的部署流程。通过提供一键安装、配置（基础）和启动脚本，用户可以快速搭建并运行包含这两个框架以及必要依赖（如 OneBot 协议实现、Redis 数据库）的机器人环境。
+本项目旨在简化 [YunZai-Bot](https://github.com/TimeRainStarSky/Yunzai) 和 [Koishi](https://koishi.chat/) 这两个流行的机器人框架在 Windows 11 环境下的部署流程。通过提供一键安装、配置（基础）和启动脚本，用户可以快速搭建并运行包含这两个框架以及必要依赖（如 OneBot 协议实现、Redis 数据库）的机器人环境。
 
 **注意：本项目脚本目前仅在 Windows 11 系统下测试通过，不保证在其他 Windows 版本上的兼容性。**
 
