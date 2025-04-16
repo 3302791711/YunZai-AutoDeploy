@@ -1,4 +1,4 @@
-# 适用于 OneBot 的QQ机器人双框架一键部署脚本
+# 适用于 OneBot 的QQ机器人双框架一键脚本
 
 [![当前版本](https://img.shields.io/badge/version-v1.0-blue)](https://github.com/你的用户名/你的仓库名/releases/tag/v1.0) <!-- 请将链接替换为你的实际仓库发布链接 -->
 [![兼容系统](https://img.shields.io/badge/System-Windows%2011-informational)](https://www.microsoft.com/windows/windows-11)
