@@ -1,0 +1,12 @@
+# FUNDING.yml
+
+github: [你的GitHub用户名或组织名]  # 必填，用于显示 GitHub Sponsors 按钮
+patreon: # 你的 Patreon 用户名 (可选)
+open_collective: # 你的 Open Collective 名称 (可选)
+ko_fi: # 你的 Ko-fi 用户名 (可选)
+tidelift: # 你的 Tidelift 项目路径 (可选)
+community_bridge: # 你的 Community Bridge 项目名称 (可选)
+liberapay: # 你的 Liberapay 用户名 (可选)
+issuehunt: # 你的 IssueHunt 组织名 (可选)
+otechie: # 你的 Otechie 用户名 (可选)
+custom: ['你的自定义赞助链接1', '你的自定义赞助链接2'] # 其他赞助方式的链接 (可选)
