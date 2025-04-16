@@ -65,7 +65,7 @@
     *   **通过 Git 克隆 (推荐)**:
         ```bash
         git clone https://github.com/3302791711/YunZai-AutoDeploy.git
-        cd 你的仓库名
+        cd YunZai-AutoDeploy
         ```
         *(请将 `你的仓库名` 替换为你实际克隆下来的目录名，或者直接进入 `YunZai-AutoDeploy` 目录)*
     *   **直接下载 ZIP**:
