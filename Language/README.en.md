@@ -125,10 +125,10 @@ After running the installation script, a structure similar to the following migh
 | `Win11-install.bat`   | 📄 One-click install script (for Windows 11)      |
 | `Win11-configure.bat` | 📄 One-click configure script (for Windows 11)    |
 | `Win11-start.bat`     | 📄 One-click start script (for Windows 11)        |
-| `Napcat-Bot/`         | 📁 Main directory for the Napcat framework          |
+| `Napcat/`         | 📁 Main directory for the Napcat framework          |
 | `Koishi/`             | 📁 Main directory for the Koishi framework          |
 | `Redis/`              | 📁 Related files or installation dir for Redis DB |
-| `YunZai-Bot/`         | 📁 Main directory for the YunZai framework          |
+| `YunZai/`         | 📁 Main directory for the YunZai framework          |
 | `Tencent_*.exe`       | 📦 QQ Installer (version may vary)                |
 
 *Note: The `Napcat-Bot/`, `Koishi/`, `Redis/`, `YunZai-Bot/` directories and the `Tencent_*.exe` file are typically created or placed by the installation script.*
