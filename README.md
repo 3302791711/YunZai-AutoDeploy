@@ -14,18 +14,18 @@
 
 ## ✨ 功能特性
 
-*   **一键安装 (`install-win11.bat`)**:
+*   **一键安装 (`Win11-install.bat`)**:
     *   自动下载并安装 YunZai-Bot 框架所需的基础环境。
     *   自动下载并安装 Koishi 框架所需的基础环境。
     *   自动下载并配置基础的 OneBot 协议实现插件（如 go-cqhttp 或 Lagrange.One 作为示例，具体视脚本实现而定）。
     *   自动下载并安装 Redis 数据库。
     *   安装 Git、Node.js 等基础依赖（如果脚本包含此功能）。
-*   **一键配置 (`configure-win11.bat`)**:
+*   **一键配置 (`Win11-configure.bat`)**:
     *   可快速的安装YunZai插件
     *   可快速的安装Koishi插件
     *   一键打开所有配置页面，方便管理
     *   如果此脚本暂时功能较少，敬请期待
-*   **一键启动 (`start-win11.bat`)**:
+*   **一键启动 (`Win11-start.bat`)**:
     *   自动化第一步：启动 OneBot 客户端。
     *   自动化第二步：启动 Koishi 实例。
     *   自动化第三步：启动 Redis 数据库服务。
