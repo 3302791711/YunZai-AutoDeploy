@@ -67,7 +67,7 @@
         git clone https://github.com/3302791711/YunZai-AutoDeploy.git
         cd YunZai-AutoDeploy
         ```
-        *(请将 `你的仓库名` 替换为你实际克隆下来的目录名，或者直接进入 `YunZai-AutoDeploy` 目录)*
+        *(请将 `YunZai-AutoDeploy` 替换为你实际克隆下来的目录名，或者直接进入 `YunZai-AutoDeploy` 目录)*
     *   **直接下载 ZIP**:
         *   访问本仓库页面，点击 "Code" -> "Download ZIP"。
         *   下载后解压到你想要的位置。
