@@ -19,7 +19,7 @@
     *   自动下载并安装 Koishi 框架所需的基础环境。
     *   自动下载并配置基础的 OneBot 协议实现插件（如 go-cqhttp 或 Lagrange.One 作为示例，具体视脚本实现而定）。
     *   自动下载并安装 Redis 数据库。
-    *   安装 Git、Node.js 等基础依赖（如果脚本包含此功能）。
+    *   安装 Git、Node.js 等基础依赖。
 *   **一键配置 (`Win11-configure.bat`)**:
     *   可快速的安装YunZai插件
     *   可快速的安装Koishi插件
