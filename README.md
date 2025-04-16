@@ -45,7 +45,7 @@
 
 在运行任何脚本之前，请确保你的 Windows 11 系统满足以下条件：
 
-*   **操作系统**: Windows 11 (x64)
+*   **系统**: Windows 11 (x64)
 *   **网络连接**: 脚本执行过程中需要稳定的网络连接以下载所需文件。
 *   **Git**: 需要预先安装 Git，用于克隆 YunZai-Bot 和 Koishi 的仓库。([下载地址](https://git-scm.com/download/win))
 *   **Node.js**: 需要预先安装 Node.js (推荐 LTS 版本)，这是 YunZai-Bot 和 Koishi 的运行环境。([下载地址](https://nodejs.org/))
