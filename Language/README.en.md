@@ -6,7 +6,7 @@
 
 ---
 
-[中文](./README.md) | **English** <!-- Link to the original Chinese version -->
+[中文](https://github.com/3302791711/YunZai-AutoDeploy/README.md) | **English** <!-- Link to the original Chinese version -->
 
 This project aims to simplify the deployment process for the two popular bot frameworks, [YunZai-Bot](https://github.com/Le-niao/Yunzai-Bot) and [Koishi](https://koishi.chat/), in a Windows 11 environment. By providing one-click installation, basic configuration, and startup scripts, users can quickly set up and run a bot environment including these two frameworks and necessary dependencies (like an OneBot protocol implementation and Redis database).
 
