@@ -1,5 +1,3 @@
-![alt text](https://docs.github.com/assets/cb-4800/images/help/repository/edit-file-button.png)
-
 @echo off
 chcp 65001 >nul
 
